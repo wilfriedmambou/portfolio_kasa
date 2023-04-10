@@ -1,0 +1,33 @@
+.ks-card-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   gap: 3vw;
+   padding: 4vw 3vw;
+   margin-bottom: 3vw;
+   background: #f7f7f7;
+   border-radius: 25px;
+}
+
+.ks-location-elt {
+   width: 340px;
+   height: 340px;
+}
+
+@media (max-width: 684px) {
+   .ks-card-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: unset;
+   }
+   .ks-location-elt {
+      width: 100%;
+   }
+}
+
+@media (min-width: 685px) and (max-width: 1046px) {
+   .ks-card-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+}

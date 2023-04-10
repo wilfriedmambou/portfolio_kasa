@@ -1,0 +1,47 @@
+.ks-container-locations {
+   margin: 4vw 0;
+}
+
+.ks-title-of-location {
+   font-size: 4vw;
+   font-weight: 500;
+   width: 60%;
+   display: inline;
+}
+
+.ks-place-of-location {
+   margin-top: 10px;
+   font-weight: 500;
+   font-size: 2.5vw;
+}
+
+.ks-profileAndRating {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.ks-rating {
+   display: flex;
+   flex-direction: column;
+}
+
+@media (max-width: 600px) {
+   .ks-title-of-location {
+      font-size: 18px;
+      width: 100%;
+   }
+   .ks-place-of-location {
+      font-size: 14px;
+      margin-bottom: 20px;
+   }
+   .ks-profileAndRating {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .ks-rating {
+      flex-direction: column-reverse;
+   }
+}

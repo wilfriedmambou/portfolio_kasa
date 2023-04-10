@@ -1,0 +1,19 @@
+.ks-tag-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.ks-tags {
+   display: inline-block;
+   margin-right: 10px;
+   background-color: #ff6060;
+   border-radius: 1.5vw;
+   color: #fff;
+   padding: 2px 30px;
+}
+@media (max-width: 600px) {
+   .ks-tag-container {
+      position: relative;
+      bottom: 10px;
+   }
+}

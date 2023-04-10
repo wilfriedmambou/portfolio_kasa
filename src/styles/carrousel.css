@@ -1,0 +1,59 @@
+.ks-carrousel {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.ks-left-arrow,
+.ks-right-arrow {
+   position: absolute;
+   cursor: pointer;
+   z-index: 99;
+   color: #fff;
+   font-size: 6vw;
+   opacity: 0.6;
+   height: auto;
+}
+
+.ks-left-arrow:hover,
+.ks-right-arrow:hover {
+   opacity: 1;
+   transition: 200ms;
+}
+
+.ks-left-arrow {
+   left: 0;
+}
+
+.ks-right-arrow {
+   right: 0;
+}
+
+.ks-cover-image-locations {
+   border-radius: 20px;
+   max-width: 35vw;
+   max-height: 29vw;
+   min-width: 100%;
+   min-height: 235px;
+   object-fit: cover;
+}
+
+.ks-counter {
+   position: relative;
+   right: 50%;
+   top: 12vw;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+@media (max-width: 600px) {
+   .ks-left-arrow,
+   .ks-right-arrow {
+      padding: 0 2vw;
+      font-size: 9vw;
+   }
+   .ks-counter {
+      top: 80px;
+   }
+}

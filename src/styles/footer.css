@@ -1,0 +1,23 @@
+.ks-footer-container {
+   background-color: black;
+   height: 209px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.ks-copyright-txt {
+   margin-top: 40px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 28px;
+}
+@media (max-width: 600px) {
+   .ks-footer-container {
+      padding: 20px;
+   }
+   .ks-copyright-txt {
+      font-size: 12px;
+   }
+}

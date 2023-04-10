@@ -1,0 +1,29 @@
+.ks-banner-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4vw;
+}
+
+.ks-cover-img {
+   max-width: 100%;
+   min-height: 111px;
+   object-fit: cover;
+   border-radius: 2vw;
+   filter: brightness(60%);
+}
+
+.ks-motto {
+   color: #fff;
+   position: absolute;
+   font-weight: 500;
+   font-size: 2.5vw;
+}
+
+@media (max-width: 600px) {
+   .ks-motto {
+      font-size: 24px;
+      margin: 30px;
+      line-height: 100%;
+   }
+}
